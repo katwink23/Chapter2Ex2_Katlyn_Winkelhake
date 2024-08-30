@@ -10,7 +10,7 @@ Requirements: Write a program that will predict how much the division will gener
 
 #include <iostream>
 using namespace std;
-const double tax = .07;
+const double pi = 3.14;
 
 
 int main()
@@ -18,9 +18,9 @@ int main()
 
 	double cost = 10.00;
 	double cost2 = 11.00;
-
-	double totalCost = tax * cost + cost;
-	double totalCost2 = tax * cost2 + cost2;
+	double circumference = 3 * pi;
+	double totalCost = pi * cost + cost;
+	double totalCost2 = pi * cost2 + cost2;
 	cout << "Your total cost is " << totalCost<<endl;
 	cout << "Your total cost is " << totalCost2<<endl;
 	//totalCost = cost * (tax + 1)
