@@ -15,10 +15,16 @@ const double tax = .07;
 
 int main()
 {
-	double
+
+	double cost = 10.00;
+	double cost2 = 11.00;
+
+	double totalCost = tax * cost + cost;
+	double totalCost2 = tax * cost2 + cost2;
+	cout << "Your total cost is " << totalCost<<endl;
+	cout << "Your total cost is " << totalCost2<<endl;
+	//totalCost = cost * (tax + 1)
 	
-
-
 
 
    return 0;
